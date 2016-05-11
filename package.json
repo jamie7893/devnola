@@ -1,0 +1,24 @@
+{
+  "name": "reactskilly",
+  "version": "1.0.0",
+  "description": "react skill app",
+  "main": "webapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.4.14",
+    "reactcss": "^0.4.5",
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.13.0"
+  }
+}

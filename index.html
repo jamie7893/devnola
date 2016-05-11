@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="css/styles.css">
+
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+  </head>
+  <body>
+    <div id="content"></div>
+    <script type="text/babel">
+    var divStyle = {
+      backgroundImage: '.css/crawfish-edit.jpg',
+      height:'1000px'
+    }
+     ReactDOM.render(
+      <div style={divStyle}>
+        <h1>Crawfish Season Might Be Ending, but DevNola Just Started!</h1></div>,
+        document.getElementById('content')
+      );
+    </script>
+  </body>
+</html>
