@@ -31,6 +31,7 @@ var Form = React.createClass({
         phone: this.state.phone,
         deadline: this.state.deadline,
         budget: this.state.budget,
+        desc: this.state.desc,
       };
       this.setState({
         email: "",
@@ -39,6 +40,7 @@ var Form = React.createClass({
         phone: "",
         deadline: "",
         budget: "",
+        desc: "",
       });
 
       $.ajax({
@@ -104,15 +106,13 @@ var Form = React.createClass({
 
   render: function() {
     return (
-      <div className = "new_project_screen" >
+      <div class="new_project_screen" >
         <br />
         <h2
           className = "formTitle"
-          align = "center" > Thesis Project < /h2>
+          align = "center" > New Project < /h2>
+<br />
 
-
-          <p class = "formTitle" >
-            Sign up to check - in and chat with others. < /p>
 
 
             <form
@@ -127,6 +127,7 @@ var Form = React.createClass({
                 text = "Name"
                 type = "text"
                 ref = "name"
+                class="newProjInput"
                 validate = {
                   this.isEmpty
                 }
@@ -162,6 +163,7 @@ var Form = React.createClass({
                     text = "Phone"
                     type = "text"
                     ref = "phone"
+                    class="newProjInput"
                     validate = {
                       this.isEmpty
                     }
@@ -178,6 +180,7 @@ var Form = React.createClass({
                     text = "Company"
                     type = "text"
                     ref = "company"
+                    class="newProjInput"
                     value = {
                       this.state.company
                     }
@@ -189,6 +192,7 @@ var Form = React.createClass({
                 <Input
                   text = "Website"
                   type = "text"
+                  class="newProjInput"
                   ref = "website"
                   value = {
                     this.state.website
@@ -202,6 +206,7 @@ var Form = React.createClass({
                   text = "Approximate Deadline"
                   ref = "deadline"
                   type = "text"
+                  class="newProjInput"
                   value = {
                     this.state.deadline
                   }
@@ -210,9 +215,22 @@ var Form = React.createClass({
                   }
                   />
 
+                  <Input
+                    text = "Budget"
+                    ref = "budget"
+                    class="newProjInput"
+                    type = "text"
+                    value = {
+                      this.state.budget
+                    }
+                    onChange = {
+                      this.handleBudgetInput
+                    }
+                    />
+
             <button
               type = "submit"
-              class = "btn btn-custom btn-block" > Submit </button>
+              class = "btn btn-custom btn-block newProjInput" > Submit </button>
 
             <br />
 

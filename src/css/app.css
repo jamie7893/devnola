@@ -1,0 +1,154 @@
+  body {
+      padding: 50px;
+      background-color: transparent !important;
+  }
+  .new_project_screen {
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 95%;
+      background: rgba(22, 25, 59, 0.87);
+      border: 3px solid #ADD5F7;
+      border-radius: 10px;
+      position: relative;
+  }
+  .closeForm {
+      position: absolute;
+      margin-top: 41px;
+      margin-left: 949px;
+      z-index: 5;
+  }
+
+  .leftText {
+    margin-top: 400px;
+    color: #ADD5F7;
+    padding: 30px;
+  }
+  .titleh1 {
+      font-size: 30px !important;
+      color: #35478C;
+  }
+  .newProjInput {
+      color: #ADD5F7;
+      border-bottom: thick solid #ADD5F7;
+      font-size: 50px;
+      background: transparent;
+  }
+  .input_label {
+      background: transparent;
+      color: #ADD5F7;
+  }
+  .example-appear {
+      opacity: 0.01;
+  }
+  .example-appear.example-appear-active {
+      opacity: 1;
+      transition: opacity .5s ease-in;
+  }
+  .input {
+      background: transparent !important;
+      border-radius: 10px;
+  }
+  .create_account_form {
+      width: 50%;
+      margin-left: 30%;
+      margin-right: 30%;
+  }
+  .theInput {
+      margin-left: 10px;
+      border: 5px solid black;
+      -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+      box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.5);
+      margin: 0 0 10px 0;
+  }
+  .main-left {
+      background: #16193B;
+      height: 100vh;
+  }
+  .main-right {
+      height: 100vh;
+      margin-left: -15px !important;
+      overflow-y: scroll;
+  }
+  .showFormBtn {
+      height: 100px;
+      margin-top: 700px;
+      margin-left: -123px;
+      width: 340px;
+      color: #ADD5F7;
+      font-size: 30px;
+      border: 3px solid #ADD5F7;
+      border-radius: 10px;
+      background: rgba(22, 25, 59, 0.87);
+  }
+  .theForm {
+      display: flex;
+      align-content: flex-start;
+      margin-bottom: 35px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 100vh;
+      height: 100vh;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 23px;
+  }
+  #background-carousel {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+  }
+  .carousel, .carousel-inner {
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      overflow: hidden;
+  }
+  .item {
+      width: 100%;
+      height: 100%;
+      background-position: center center;
+      background-size: cover;
+      z-index: 0;
+  }
+  #content-wrapper {
+      position: absolute;
+      z-index: 1 !important;
+      min-width: 100%;
+      min-height: 100%;
+  }
+  .formFlex {
+      display: -webkit-flex;
+      display: flex;
+      align-content: flex-start;
+      margin-bottom: 35px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+  }
+  .formTitle {
+      color: #ADD5F7;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 0 40px 10px;
+      text-align: center;
+  }
+  #lean_overlay {
+      position: fixed;
+      z-index: 100;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      display: none;
+  }
+  .email {
+      color: black;
+  }
+  .signup {
+      margin-left: 50px;
+  }
